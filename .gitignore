@@ -1,0 +1,49 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# 🧱 Virtual environment
+venv/
+env/
+.venv/
+
+# 🧩 IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 📦 Python dependency files
+*.egg-info/
+dist/
+build/
+
+# 🧰 OS-specific junk
+.DS_Store
+Thumbs.db
+
+# 🧪 Test / Coverage
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+*.log
+
+# 🔐 Environment / Secrets
+.env
+.env.local
+.env.*.local
+
+# 🗄️ SQLite or local databases
+*.sqlite3
+*.db
+
+# 🧰 Optional (for local debugging or data)
+logs/
+tmp/
+uploads/
+__pypackages__/

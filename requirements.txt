@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+torch
+scikit-learn
+fuzzywuzzy
+python-Levenshtein   # optional, speeds up fuzzywuzzy
+sentence-transformers
