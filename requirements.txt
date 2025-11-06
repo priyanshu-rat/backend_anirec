@@ -3,7 +3,8 @@ uvicorn[standard]
 gunicorn
 pandas
 numpy
-torch --index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.3.0+cpu
 scikit-learn
 fuzzywuzzy
 python-Levenshtein   # optional, speeds up fuzzywuzzy
