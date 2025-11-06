@@ -1,8 +1,9 @@
 fastapi
 uvicorn[standard]
+gunicorn
 pandas
 numpy
-torch
+torch --index-url https://download.pytorch.org/whl/cpu
 scikit-learn
 fuzzywuzzy
 python-Levenshtein   # optional, speeds up fuzzywuzzy
