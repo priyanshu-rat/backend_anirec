@@ -11,7 +11,7 @@ CSV_PATH = os.path.join(os.path.dirname(__file__), "finalAnime.csv")
 EMB_PATH = os.path.join(os.path.dirname(__file__), "anime_bert_embeddings_cpu.pt")
 NORM_PATH = os.path.join(os.path.dirname(__file__), "anime_normalized_embeddings.npy")
 MODEL_NAME = "paraphrase-MiniLM-L6-v2"
-MODEL_CACHE_DIR = os.path.join(os.path.expanduser("~"), ".cache", "anime_recommender_model")
+MODEL_CACHE_DIR = os.path.join("/tmp", "anime_recommender_model")
 
 # ---------- Globals ----------
 df = None
